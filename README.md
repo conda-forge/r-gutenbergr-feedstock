@@ -1,11 +1,11 @@
-About r-gutenbergr
-==================
+About r-gutenbergr-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gutenbergr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.ropensci.org/gutenbergr/, https://github.com/ropensci/gutenbergr
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gutenbergr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Download and process public domain works in the Project Gutenberg collection <http://www.gutenberg.org/>. Includes metadata for all Project Gutenberg works, so that they can be searched and retrieved.
 

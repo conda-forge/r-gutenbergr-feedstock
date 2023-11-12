@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gutenbergr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gutenbergr/gutenbergr_{{ version }}.tar.gz
-  sha256: 7f6fedec8f943fc3f93656a04786fc87c063bf9523d804dce09d791dba8ecec9
+  sha256: e66d535e5d2fdca2cde61a2919f94d1bed7b62f1690e7a8bc3f2b0397daea943
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

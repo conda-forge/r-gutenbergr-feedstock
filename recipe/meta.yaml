@@ -1,4 +1,4 @@
-{% set version = "0.2.4" %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gutenbergr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gutenbergr/gutenbergr_{{ version }}.tar.gz
-  sha256: e66d535e5d2fdca2cde61a2919f94d1bed7b62f1690e7a8bc3f2b0397daea943
+  sha256: c39e2e60d4e46d119f14f291da3ce07ce8d2dc7b032523dadd4b0d3128fa448c
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

@@ -24,19 +24,27 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-cli
     - r-dplyr
-    - r-lazyeval
+    - r-glue
     - r-purrr
+    - r-readmdtable
     - r-readr
+    - r-rlang
     - r-stringr
+    - r-tibble
     - r-urltools
   run:
     - r-base
+    - r-cli
     - r-dplyr
-    - r-lazyeval
+    - r-glue
     - r-purrr
+    - r-readmdtable
     - r-readr
+    - r-rlang
     - r-stringr
+    - r-tibble
     - r-urltools
 
 test:
